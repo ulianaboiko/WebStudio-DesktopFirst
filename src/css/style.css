@@ -205,6 +205,15 @@ img {
     padding: 10px 24px;
   }
 }
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 26px;
+    width: 360px;
+  }
+  .hero-button {
+    padding: 10px 24px;
+  }
+}
 /* --------------------------------MODAL---------------------------------------- */
 .backdrop {
   position: fixed;
@@ -384,6 +393,15 @@ img {
 .modal-btn-submit:hover {
   box-shadow: 4px 3px 5px 0px var(--colorTextPrimary);
 }
+@media (max-width: 767px) {
+  .modal {
+    min-width: 450px;
+    min-height: 610px;
+    z-index: 5;
+  }
+}
+@media (max-width: 480px) {
+}
 /* --------------------------------advantages-------------------------- */
 .advantages {
   padding-top: 94px;
@@ -446,9 +464,6 @@ img {
   }
   .advantages-item {
     flex-basis: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
   .advantages-title {
     align-content: center;
@@ -576,6 +591,15 @@ img {
   }
   .teammate {
     flex-basis: calc((100% - 30px) / 2);
+  }
+}
+@media (max-width: 480px) {
+  .team-members {
+    justify-content: center;
+  }
+  .teammate {
+    flex-basis: 0;
+    flex-grow: 1;
   }
 }
 /* --------------------------------clients------------------------------- */
